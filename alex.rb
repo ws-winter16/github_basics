@@ -1,5 +1,4 @@
 puts 'give me a two integers that are divisible by 2'
-
 x = gets.chomp.to_i
 y = gets.chomp.to_i
 

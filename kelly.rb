@@ -1,1 +1,8 @@
-#Kelly write a program that only accepts integers that are evenly divisible by 3. That is to say there will be no remainder.
+puts "Enter an integer that is evenly divisible by 3."
+i = gets.chomp.to_i
+if i % 3 == 0
+	puts 'Good job!'
+	else
+		puts 'Try again!'
+	end
+
